@@ -22,7 +22,7 @@ public class PlaneColors : MonoBehaviour
             Debug.LogWarning("Test Warning");
             Debug.LogError("Test Error");
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(3f);
         }
     }
 

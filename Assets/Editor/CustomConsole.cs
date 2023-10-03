@@ -48,7 +48,6 @@ public class CustomConsole : EditorWindow
         }
     }
 
-
     void HandleLog(string logString, string stackTrace, LogType type)
     {
         logs.Add(logString); // Store the logs in a list
